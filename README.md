@@ -5,23 +5,27 @@ The Universal Business Intelligence Dashboard (UBID) is a web application design
 
 ## Project Structure
 ```
-ubid-dashboard
-├── src
-│   ├── components
-│   │   └── Dashboard.tsx
-│   ├── pages
-│   │   └── index.tsx
-│   ├── services
-│   │   └── api.ts
-│   ├── utils
-│   │   └── helpers.ts
-│   └── types
-│       └── index.ts
-├── public
-│   └── index.html
-├── package.json
-├── tsconfig.json
-└── README.md
+ubid-dashboard/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── Dashboard.tsx
+│   │   ├── pages/
+│   │   │   └── index.tsx
+│   │   ├── services/
+│   │   │   └── api.ts
+│   │   ├── utils/
+│   │   │   └── helpers.ts
+│   │   └── types/
+│   │       └── index.ts
+│   ├── public/
+│   │   └── index.html
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── package-lock.json          
+├── backend/                      
+│   └── ...                       # backend files and folders
+└── README.md                     
 ```
 
 ## Installation
